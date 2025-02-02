@@ -70,7 +70,7 @@ git clone https://github.com/FabricioCarvalho348/Student_Management_Prova-04-WEB
 5. Dentro do projeto "StudentFlow.Api" tem dois arquivos appsettings.json e appsettings.Development.json coloque sua conexão do PostgreSQL no campo correspondente
 
 ```
-  "ConnectionStrings:DefaultConnection": "Host=localhost;Database={NOME_DO_BANCO_DE_DADOS};Username={USERNAME_POSTGRESQL};Password={SUA_SENHA_DO_POSTGRESQL}"
+ "Host=localhost;Database={NOME_DO_BANCO_DE_DADOS};Username={USERNAME_POSTGRESQL};Password={SUA_SENHA_DO_POSTGRESQL}"
 ```
 
 6. Instalar o EF Tools
