@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7D6F39C5-E36D-4D0E-82B4-9861518D5D51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentFlow.Api", "src\StudentFlow.Api\StudentFlow.Api.csproj", "{DF4BCE12-5B76-4A70-BC83-F34DD46C0BB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentFlow.Core", "src\StudentFlow.Core\StudentFlow.Core.csproj", "{B4762758-0D38-475B-BD07-8B2FC14934E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF4BCE12-5B76-4A70-BC83-F34DD46C0BB3} = {7D6F39C5-E36D-4D0E-82B4-9861518D5D51}
+		{B4762758-0D38-475B-BD07-8B2FC14934E7} = {7D6F39C5-E36D-4D0E-82B4-9861518D5D51}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF4BCE12-5B76-4A70-BC83-F34DD46C0BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4BCE12-5B76-4A70-BC83-F34DD46C0BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4BCE12-5B76-4A70-BC83-F34DD46C0BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4BCE12-5B76-4A70-BC83-F34DD46C0BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4762758-0D38-475B-BD07-8B2FC14934E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4762758-0D38-475B-BD07-8B2FC14934E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4762758-0D38-475B-BD07-8B2FC14934E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4762758-0D38-475B-BD07-8B2FC14934E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

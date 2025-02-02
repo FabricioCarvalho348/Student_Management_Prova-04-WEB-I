@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="edit-student.css">
+    <title>Editar Estudante</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Editar Estudante</h2>
+        <form id="editForm">
+            <input type="hidden" id="studentId">
+
+            <label for="editName">Nome:</label>
+            <input type="text" id="editName" placeholder="Nome" required>
+
+            <label for="editRegistration">Matrícula:</label>
+            <input type="text" id="editRegistration" placeholder="Matrícula" required>
+
+            <label for="editEmail">E-mail:</label>
+            <input type="email" id="editEmail" placeholder="E-mail" required>
+
+            <label for="editDateOfBirth">Data de Nascimento:</label>
+            <input type="date" id="editDateOfBirth" required>
+
+            <label for="editCourseName">Nome do Curso:</label>
+            <input type="text" id="editCourseName" placeholder="Nome do Curso" required>
+
+            <label for="editDuration">Duração (meses):</label>
+            <input type="number" id="editDuration" placeholder="Duração (meses)" required>
+
+            <button type="submit">Salvar</button>
+        </form>
+
+        <a href="index.html"><button class="back-button">Voltar para a lista de estudantes</button></a>
+    </div>    
+
+    <script src="edit-student.js"></script>
+</body>
+</html>
